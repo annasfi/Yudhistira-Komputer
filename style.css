@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f7f7f7;
+  color: #222;
+}
+
+/* NAVBAR */
+.navbar {
+  background: #1a1a1a;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar h1 { font-size: 20px; }
+
+.btn-wa {
+  color: white;
+  background: #25d366;
+  padding: 8px 14px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: white;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+}
+.hero h2 { font-size: 26px; margin-bottom: 10px; }
+.hero p { color: #555; margin-bottom: 20px; }
+.btn-primary {
+  display: inline-block;
+  background: #1a1a1a;
+  color: white;
+  padding: 12px 22px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+/* LAYANAN */
+.layanan {
+  padding: 40px 20px;
+}
+.layanan h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.layanan-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.05);
+}
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.card h3 {
+  margin-bottom: 8px;
+  color: #222;
+}
+.card p {
+  color: #555;
+  font-size: 14px;
+}
+
+/* TENTANG */
+.tentang {
+  background: white;
+  padding: 40px 20px;
+  text-align: center;
+  margin-top: 30px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+}
+
+/* KONTAK */
+.kontak {
+  padding: 40px 20px;
+  text-align: center;
+}
+.kontak a {
+  color: #25d366;
+  text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+  background: #1a1a1a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  margin-top: 20px;
+}
